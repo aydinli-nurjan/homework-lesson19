@@ -1,0 +1,83 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    min-height: 800px;
+    float: left;
+    background-color: bisque;
+}
+
+.backphoto{
+    width: 100%;
+    height: 750px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.head{
+    width: 100%;
+    height: 48px;
+    background-color: #fafafa;
+    float: left;
+}
+
+.left{
+    width: 50%;
+    height: inherit;
+    float: left;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right{
+    width: 50%;
+    height: inherit;
+    float: left;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.smedia{
+    width: 180px;
+    height: 48px;
+    float: left;
+    margin-right: 60px;
+}
+
+.box{
+    width: 38px;
+    height: 48px;
+    float: left;
+    color: white;
+    margin-left: 5px;
+    background-color: blueviolet;
+}
+
+.call{
+    width: 160px;
+    height: 48px;
+    background-color: green;
+    float: left;
+    margin-left: 35px;
+    color: white;
+}
+
+.email{
+    width: 150px;
+    height: 48px;
+    background-color: green;
+    float: left;
+    color: white;
+    margin-left: 18px;
+}
+
+.disFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
