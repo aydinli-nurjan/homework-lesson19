@@ -5,9 +5,9 @@ body{
 
 .main{
     width: 100%;
-    min-height: 800px;
+    min-height: 80px;
     float: left;
-    background-color: bisque;
+    background-color: white;
 }
 
 .backphoto{
@@ -254,4 +254,35 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.bloks{
+    width: 340px;
+    min-height: 150px;
+    /* background-color: bisque; */
+}
+
+.footer{
+    width: 100%;
+    min-height: 270px;
+    background-color: #f4f4f4;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconn{
+    width: 90px;
+    height: 150px;
+    float: left;
+    /* background-color: cornflowerblue; */
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.fa-icons{
+    width: 70px;
+    height: 50px;
+    /* background-color: burlywood; */
 }
